@@ -48,7 +48,7 @@ https://screencast-o-matic.com/watch/cr63VJVXWIC#
 
 ***Link to Git***
 
-https://github.com/masoncota/Console-Based-Calculator-Application-Using-C-Programming/edit/main/README.md
+https://github.com/masoncota1/A-Console-Based-Calculator-Application-Using-C-Programming
 
 
 ***Output Screens***
