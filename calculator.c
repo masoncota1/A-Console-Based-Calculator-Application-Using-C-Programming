@@ -1,8 +1,30 @@
 /**
  * A Console-Based Calculator Application Using C Programming
  */
+
 #include<stdio.h>
 #include<conio.h>
+#include <stdlib.h>
+int main()
+{
+   int num;
+   FILE *fptr;
+
+   // use appropriate location if you are using Windows
+   fptr = fopen("C:\\program.txt","w");
+
+   if(fptr == NULL)
+   {
+      printf("Calculator Error!");  
+      exit(1);            
+   }
+
+   printf("Enter Calculator num: ");
+   scanf("%d",&num);
+
+   fprintf(fptr,"%d",num);
+   fclose(fptr);
+}
 int main()
 {
    float num1, num2, res;
